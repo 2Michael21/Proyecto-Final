@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Sistema de Gestión de Publicaciones Académicas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <!-- Incluir encabezado común si es necesario -->
+    </header>
+
+    <main>
+        <section class="login">
+            <h1>Iniciar Sesión</h1>
+            <form>
+                <a class="boton-retroceso" href="../index.html"><img src="../Logotipo/flecha_ret.png"></a>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo">
+
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena">
+
+                <div>
+                <a href="javascript:void(0);" class="boton-login" onclick="validarLogin()">Iniciar Sesión</a>
+                </div>
+            </form>
+            <p>¿No tienes una cuenta? <a href="../Registro/registro.html">Regístrate aquí</a></p>
+        </section>
+    </main>
+
+    <!-- ... (contenido posterior de tu página) ... -->
+</body>
+</html>
